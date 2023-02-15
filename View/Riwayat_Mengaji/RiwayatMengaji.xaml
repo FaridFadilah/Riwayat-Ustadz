@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
         xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ngaji_yukk"
         x:Class="ngaji_yukk.View.Riwayat_Mengaji.RiwayatMengaji" Title="Riwayat Mengaji" Shell.NavBarIsVisible="false">
-                <ScrollView>           
+        <ScrollView>
+                <Grid RowDefinitions="*,auto">
                         <VerticalStackLayout Margin="20,10,10,20">
                                 <Label Text="Riwayat Mengaji" FontFamily="NunitoBlack" FontSize="28" Margin="0,0,0,28" />
                                 <HorizontalStackLayout Margin="0,0,0,28">
@@ -29,7 +30,6 @@
                                                 <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
                                                         TextColor="#88984A" />
                                         </VerticalStackLayout>
-                                        
                                         <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
                                 </HorizontalStackLayout>
                                 <HorizontalStackLayout Margin="0,0,0,28">
@@ -43,7 +43,6 @@
                                                 <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
                                                         TextColor="#C0C0C0"/>
                                         </VerticalStackLayout>
-                                        
                                         <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
                                 </HorizontalStackLayout>
                                 <HorizontalStackLayout Margin="0,0,0,28">
@@ -59,7 +58,125 @@
                                         </VerticalStackLayout>
                                         <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
                                 </HorizontalStackLayout>
-                <Button Text="Kembali" BackgroundColor="#FFD53F" FontFamily="NunitoBlack" WidthRequest="300" TextColor="#313131" HeightRequest="56" FontSize="18" CornerRadius="50" HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,28,0,28"/>
-                </VerticalStackLayout>
-                </ScrollView>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,0,0,28">
+                                        <Image Source="ustadz.png" WidthRequest="60" Margin="0,0,12,0" HeightRequest="60" />
+                                        <VerticalStackLayout>
+                                                <StackLayout Margin="0,0,0,10">
+                                                        <Label Text="Dalene Robertson" FontFamily="Nunito" FontSize="18"
+                                                                FontAttributes="Bold" />
+                                                        <Label Text="Selesai Mengaji" FontFamily="Nunito" FontSize="14" />
+                                                </StackLayout>
+                                                <Label Text="Sabtu, 3 Apr 2021  •  13:00 PM " FontFamily="Nunito"
+                                                        TextColor="#88984A" />
+                                        </VerticalStackLayout>
+                                        <ImageButton Source="icon.svg" WidthRequest="15" HeightRequest="15"/>
+                                </HorizontalStackLayout>
+                                <Button Text="Kembali" BackgroundColor="#FFD53F" FontFamily="NunitoBlack" WidthRequest="300" TextColor="#313131" HeightRequest="56" FontSize="18" CornerRadius="50" HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,28,0,28"/>
+                        </VerticalStackLayout>
+                </Grid>
+        </ScrollView>
 </ContentPage>
