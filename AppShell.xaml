@@ -11,10 +11,23 @@
             <ShellContent Route="dogs" />
         </Tab>        
     </FlyoutItem> -->
+    <!-- <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Domestic">
+        </Tab>
+        
+        Shell has implicit conversion operators that enable the Shell visual hierarchy to be simplified.
+        This is possible because a subclassed Shell object can only ever contain a FlyoutItem object or a TabBar object,
+        which can only ever contain Tab objects, which can only ever contain ShellContent objects.
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:View.Riwayat_Mengaji.RiwayatMengaji}"
-        Route="MainPage" />
+        The implicit conversion automatically wraps the ShellContent objects below in Tab objects.
+       
 
+        <ShellContent
+                Title="Login"
+                ContentTemplate="{DataTemplate local:View.Auth.Login}"/>
+    </FlyoutItem> -->
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:View.Riwayat_Mengaji.RiwayatMengaji}"
+                Route="MainPage"/>
 </Shell>
