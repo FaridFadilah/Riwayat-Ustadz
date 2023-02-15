@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ngaji_yukk.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ngaji_yukk"
+    Shell.FlyoutBehavior="Disabled">
+    <!-- <FlyoutItem>
+        <Tab>
+            <ShellContent Route="cats" />
+            <ShellContent Route="dogs" />
+        </Tab>        
+    </FlyoutItem> -->
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:View.Riwayat_Mengaji.RiwayatMengaji}"
+        Route="MainPage" />
+
+</Shell>
