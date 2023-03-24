@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ngaji_yukk.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
 
+[/home/faridhome/Desktop/ngaji-yukk/View/DetailsUser/Details.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ngaji_yukk.View.DetailsUser.Details.xaml
+build_metadata.AdditionalFiles.TargetPath = View/DetailsUser/Details.xaml
+build_metadata.AdditionalFiles.RelativePath = View/DetailsUser/Details.xaml
+
 [/home/faridhome/Desktop/ngaji-yukk/View/Login/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ngaji_yukk.View.Login.Login.xaml

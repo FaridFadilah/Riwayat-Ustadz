@@ -4,6 +4,10 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ngaji_yukk"
+    xmlns:view="clr-namespace:ngaji_yukk.View"
+    xmlns:login="clr-namespace:ngaji_yukk.View.Login"
+    xmlns:DetailsUser="clr-namespace:ngaji_yukk.View.DetailsUser"
+    xmlns:RiwayatMengaji="clr-namespace:ngaji_yukk.View.Riwayat_Mengaji.RiwayatMengaji"
     Shell.FlyoutBehavior="Disabled">
     <!-- <FlyoutItem>
         <Tab>
@@ -28,6 +32,6 @@
     </FlyoutItem> -->
             <ShellContent
                 Title="Home"
-                ContentTemplate="{DataTemplate local:View.Riwayat_Mengaji.RiwayatMengaji}"
+                ContentTemplate="{DataTemplate DetailsUser:DetailsUser}"
                 Route="MainPage"/>
 </Shell>

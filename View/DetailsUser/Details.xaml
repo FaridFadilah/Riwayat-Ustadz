@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding = 'UTF-8' ?>
+<ContentPage xmlns='http://schemas.microsoft.com/dotnet/2021/maui'
+  xmlns:x='http://schemas.microsoft.com/winfx/2009/xaml' xmlns:local='clr-namespace:'
+  x:Class='ngaji_yukk.View.DetailsUser.DetailsUser' Title='DetailsUser' Shell.NavBarIsVisible="false">
+  <Grid RowDefinitions="*,*,*,*">
+    <FlexLayout AlignItems="Center">
+      <Image Source="ustadz.png" />
+      <HorizontalStackLayout Grid.Row="1">
+        <Label x:Name="username" />
+        <Label Text="Official NgajiLagi" />
+      </HorizontalStackLayout>
+    </FlexLayout>
+    <Button Grid.Row="2" Text="Mulai Dari Awal" CornerRadius="50" Background="#fff" Padding="20,20,20,20" />
+    <HorizontalStackLayout Grid.Row="3">
+
+    </HorizontalStackLayout>
+    <HorizontalStackLayout Grid.Row="4">
+
+    </HorizontalStackLayout>
+  </Grid>
+</ContentPage>

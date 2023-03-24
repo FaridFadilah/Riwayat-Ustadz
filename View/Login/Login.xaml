@@ -1,4 +1,19 @@
 <?xml version='1.0' encoding = 'UTF-8' ?>
-<ContentPage xmlns='http://schemas.microsoft.com/dotnet/2021/maui' xmlns:x='http://schemas.microsoft.com/winfx/2009/xaml' xmlns:local='clr-namespace:ngaji_yukk' x:Class='ngaji_yukk.View.Auth.Login' Title='Login' Shell.NavBarIsVisible="false">
-
+<ContentPage xmlns='http://schemas.microsoft.com/dotnet/2021/maui'
+  xmlns:x='http://schemas.microsoft.com/winfx/2009/xaml' xmlns:local='clr-namespace:ngaji_yukk'
+  x:Class='ngaji_yukk.View.Login.Login' Title='Login' Shell.NavBarIsVisible="false">
+  <Grid RowDefinitions="*,Auto,Auto" Margin="20,20,20,20">
+    <VerticalStackLayout Margin="0,20,0,20" HorizontalOptions="Center" VerticalOptions="Center">
+      <Image Source="iconngaji.svg" Margin="0,20,0,20"/>
+      <Label Text="“Bacalah Al Qur’an, karena ia akan datang pada hari kiamat sebagai syafa’at bagi shahibul Qur’an”" FontFamily="Nunito" FontSize="18" HorizontalTextAlignment="Center"/>
+    </VerticalStackLayout>
+    <VerticalStackLayout Margin="0,20,0,20" Grid.Row="1">
+      <Entry Placeholder="Masukan Namamu" x:Name="name" TextChanged="handleInput" Completed="outputHandleInput"/>
+    </VerticalStackLayout>
+    <VerticalStackLayout Margin="0,20,0,20" Grid.Row="2">
+      <Button x:Name="LoginButton" Background="#88984A" FontFamily="NunitoBlack" CornerRadius="50" TextColor="#fff" Padding="0,10,0,10" Margin="0,10,0,10" Clicked="onClick"/>
+      <Button Text="Lupa Password" Background="#ffffff" TextColor="#000" Padding="0,10,0,10" Margin="0,10,0,10"/>
+      <Button x:Name="RegisterButton" Text="Daftar Sekarang" Background="#FFD53F" TextColor="#000" FontFamily="NunitoBlack" CornerRadius="50" Padding="0,10,0,10" Margin="0,10,0,10"/>
+    </VerticalStackLayout>
+  </Grid>
 </ContentPage>
